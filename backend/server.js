@@ -6,12 +6,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const API_KEY = "YOUR_GEMINI_API_KEY";
-
 app.post("/ask", async (req, res) => {
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${AIzaSyAgSiUpLprnW2-xvLgH9CmtUU_vUmqCfpI}`,
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" +
+        process.env.AIzaSyAgSiUpLprnW2-xvLgH9CmtUU_vUmqCfpI,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -24,7 +23,7 @@ app.post("/ask", async (req, res) => {
     const data = await response.json();
     res.json({ answer: data.candidates[0].content.parts[0].text });
   } catch (err) {
-    res.status(500).json({ answer: "AI error" });
+    res.status(500).json({ error: "AI error" });
   }
 });
 
