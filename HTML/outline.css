@@ -1,0 +1,22 @@
+
+/* outline properties */
+div{
+    height: 200px;
+    width: 200px;
+    background-color:green;
+    border: 10px solid red;
+    margin: 150px auto;
+
+    /* outline-style: dashed;
+    outline-color: black;
+    outline-width: 10px;
+    outline-offset: 10px; */
+
+    outline: 10px solid blue ;
+    outline-offset: 10px;
+}
+
+input{
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,99 @@
+div{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    animation: rotation;
+    animation-duration: 4s;
+    
+    /* margin: 100px auto; */
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-direction: ; */
+}
+
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-delay: 1s;
+}
+
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation-delay: 2s;
+}
+.div3{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    animation-delay: 3s;
+}
+.div4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-delay: 4s;
+
+    
+}
+/* @keyframes rotation {
+    from{
+        transform: rotate(0deg);
+        background-color: blue;
+        width: 200px;
+        border-radius: 100%;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: red;
+    }
+} */
+
+/* @keyframes rotation {
+    0%{
+        width: 500px;
+        background-color: aqua;
+    }
+    25%{
+        width: 500px;
+        background-color: red;
+    }
+    50%{
+        width: 300px;
+        background-color: aqua;
+    }
+    70%{
+        width: 300px;
+        border-radius: 100%;
+        background-color: yellowgreen;
+
+    }
+    
+} */
+
+@keyframes rotation {
+    0%{
+        margin-top: 0;
+        margin-left: 0;
+       
+    }  
+    25%{
+        margin-top: 0;
+        margin-left: 300px;
+        
+    }   
+    50%{
+        margin-top: 300px;
+        margin-left: 300px;
+    }  
+    75%{
+        margin-top: 300px;
+        margin-left: 0;
+    }  
+    100%{
+        margin-top: 0;
+        margin-left: 0;
+    }  
+}

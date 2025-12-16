@@ -1,0 +1,40 @@
+section{
+    display: grid; /* display takig complete width */
+    height: 600px;
+    width: 600px;
+    border: 1px solid;
+    grid-template-columns: auto auto; /* split according to the no.of auto mentined */
+    grid-template-columns: 300px; /* shows vertically all */
+    grid-template-columns: 150px 200px; /* takes according to width mentioned */
+    grid-template-columns: 1fr 2fr; /* tales according to width mentioned */
+
+    /* tell how many elements will display according width */
+    grid-template-columns: repeat(4,200px); /*display vertically */
+    grid-template-columns: repeat(auto-fill, 200px);
+    grid-template-columns: repeat(3,200);
+    grid-template-columns: repeat(2);
+    /* grid-template-columns: auto auto; */
+    grid-template-rows: 200px 200px;
+    /* align-content: space-around; */
+    grid-template-columns: repeat(3,150px);
+    justify-content: center; /* align items to center */
+    gap: 20px 30px;
+    padding: 10px;
+}
+
+.div1{
+    background-color: aqua;
+    
+}
+.div2{
+    background-color: red;
+}
+.div3{
+    background-color: blue;
+}
+.div4{
+    background-color: violet;
+}
+.div5{
+    background-color: brown;
+}

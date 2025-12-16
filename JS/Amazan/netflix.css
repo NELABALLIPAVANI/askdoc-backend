@@ -1,0 +1,321 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.img1{
+    height: 670px;
+    width: 100%;
+    background-blend-mode:hard-light;
+    /* background-image: url("./netflix.jpg"); */
+    background-image: url("https://wallpapers.com/images/hd/plain-grey-background-5o3v6nsmzga9pdkj.jpg"),url("https://i.pinimg.com/originals/19/8b/2f/198b2f01e73b905772279616eccc7c65.jpg");
+}
+body{
+    background-color: rgb(20, 19, 19);
+}
+/* .img1 img{
+    height: auto;
+    width: 100%;
+    background-blend-mode: color-burn;
+} */
+
+
+.img2 img{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.lang select{
+    height:30px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px gray;
+    background-color: transparent;
+    border: 1px solid white;
+    position: absolute;
+    right: 250px;
+    top: 20px;
+}
+.form-container {
+    position: relative;
+}
+
+input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px gray;
+    border: 1px solid white;
+    position: absolute;
+    right: 130px;
+    top: 20px;
+}
+
+
+select > option{
+    background-color: blue;
+}
+.icon{
+    color: #fff;
+    font-size: 25px;
+    background:transparent;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+    color: rgb(244, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movies{
+    line-height: 45px;
+    /* color: rgb(12, 14, 15); */
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;   
+
+}
+input[type="email"]{
+    background-color:rgb(228, 224, 224);
+    border: 1px solid;
+    font-size: 15px;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+input[type="text"]{
+    background-color:rgb(234, 16, 16);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+#middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 550px;
+}
+h2{
+    font-size: 40px;
+    padding-left: 100px;
+    color: rgb(154, 145, 145);
+    position: relative;
+    bottom: 230px;
+}
+.cart-img img{
+    height: 250px;
+    width: 180px;
+    border-radius: 10px;
+    margin-left:50px ;
+}
+#cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+}
+.cart-num{
+    color: rgb(24, 24, 24);
+    font-size: 80px;
+    text-shadow: -2px -2px white,
+                  2px -2px white,
+                  -2px 2px white,
+                  2px 2px white  ;
+    position: relative;
+    left: 50px;
+    top: 80px;
+    z-index: 10;
+}
+.cart-img img:hover{
+    transform:scale(1.1);
+    opacity: 2px;
+}
+h3{
+    font-size: 40px;
+    padding-left: 100px;
+    color: rgb(154, 145, 145);
+    position: relative;
+    bottom: 240px;
+}
+.options{
+    height: 200px;
+    width:300px;
+    border: 2px solid;
+    margin-left: 30px;
+    border-radius: 20px;
+    /* background-color:#484242; */
+        background-image: linear-gradient(rgb(1, 1, 73),blue,rgb(213, 81, 103),black);
+
+}
+.options h1{
+    color: rgb(252, 248, 248);
+    font-size: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+   margin: 10px;
+}
+.options p{
+    color: rgb(247, 242, 242);
+    font-size:15px ;
+    line-height: 20px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
+    margin: 10px;
+    /* background-image: radial-gradient(blue,pink); */
+} 
+#tvs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    bottom: 230px;
+}
+h4{
+    font-size: 40px;
+    padding-left: 100px;
+    color: rgb(234, 227, 227);
+    position: relative;
+    bottom: 200px;
+}
+.questions{
+    height: 70px;
+    width: 80%;
+    color: white;
+    background-color: #484242;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+    padding-left: 20px;
+}
+#answers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    bottom: 180px;
+    text-align: left;
+}
+.icons img{
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.icons{
+    padding: 10px 20px 20px 0;
+    font-size: 40px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin: 10px;
+    color: pink;
+    /* background-image: linear-gradient(rgb(210, 146, 146)); */
+
+}
+.questions:hover{
+    transform: scale(1.01);
+}
+h5{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}
+.email{
+    height: 60px;
+    width: 350px;
+    font: size 15px;
+    color: white;
+    text-align: left;
+    background-color: #484242;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+.start{
+    height: 60px;
+    width: 250px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color:red;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+#email2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 100px;
+    gap: 10px;
+}
+pre{
+    color: white;
+    font-size: 15px;
+    position: relative;
+    bottom: 30px;
+    margin-left: 115px;
+}
+select .icon1{
+    height:30px;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px gray;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 30px;
+    
+}
+select{
+    margin-left: 130px;
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    text-align: end;
+    padding-right: 20px;
+    padding: 10px;
+}

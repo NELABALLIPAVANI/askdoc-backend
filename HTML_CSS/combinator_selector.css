@@ -1,0 +1,21 @@
+
+section h1{
+    background-color: aqua;
+    color: white;
+}
+div div > h1 {
+    background-color: blue;
+    color: blueviolet;
+}
+div + h1,p {
+    background-color: brown;
+    color: blanchedalmond;
+}
+div + ol li {
+    background-color: blue;
+    color: blanchedalmond;
+}
+div ~ h1, h2, p{
+    background-color: blueviolet;
+    color: black;
+}

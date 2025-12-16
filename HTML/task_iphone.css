@@ -1,0 +1,98 @@
+#container{
+    height: 500px;
+    width: 700px;
+    box-shadow: 0 0 5px 5px black;
+    display: flex;
+    justify-content: gray;
+    align-items: center;
+    margin: 80px auto;
+    padding: 15px;
+    background-color: whitesmoke;
+    /* background-color: linear-gradient(pink,blue,crimson,orange,palegreen); */
+}
+
+.button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Details,.image{
+    height: inherit;
+    width: 50%;
+}
+
+.image{
+    margin-top: 150px;
+    /* border-right: 2px solid ; */
+}
+.Details{
+    padding: 20px;
+    border-left: 2px solid ;
+}
+
+p{
+    text-align: justify;
+}
+.btn1{
+    background-color: crimson;
+    color: white;
+    padding: 7px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.btn1:hover{
+    border: 2px solid crimson;
+    background-color: white;
+    color: crimson;
+}
+
+.btn2{
+    background-color: blue;
+    color: white;
+    padding: 7px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+}
+
+//navbar
+body{
+    height:600px;
+    width:100%;
+    margin-left: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: conic-gradient(blue,green,pink,yellow,pink,greenyellow,red);
+}
+
+.navbar{
+    height: 70px;
+    /* margin-left: 50px; */
+    width: 100%;
+    border-radius: 6px;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+a{
+    text-decoration-line: none;
+    
+}
+a:hover{
+    color: brown;
+    font-size: 40px;
+}
+

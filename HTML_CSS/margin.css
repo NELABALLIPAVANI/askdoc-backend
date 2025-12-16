@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+
+    
+    margin:auto;
+    margin: 50px;
+    margin: 50px 30px;
+    margin: 50px 30px 30px ;
+    margin: 50px 30px 30px 30px;
+}
+span{
+    height: 100px;
+    width: 100px; /* height and width wont take */
+    background-color: brown;
+    padding: 60px; /* if we give block level element and then inline element along with padding..it will overlap */
+    margin: 100px;  /* inline ele takes only left and right margin. it wont accept top and bottom */
+    border: 2px solid;
+}
+img{
+    border: 2px solid;
+    padding: 100px;
+    margin: 10px;
+}

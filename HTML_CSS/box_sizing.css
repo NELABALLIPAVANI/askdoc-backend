@@ -1,0 +1,32 @@
+.cb{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    border: 3px solid;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+.bb{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    border: 3px solid;
+    padding: 10px;
+    box-sizing: border-box;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box; //won't applicable 
+
+}
+section {
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+}

@@ -1,0 +1,27 @@
+a[target]{
+    background-color: aqua;
+}
+a[target = "_parent"]{
+    background-color: rgb(157, 255, 0);
+}
+a[title = "are"]{
+    background-color: rgb(255, 0, 21);
+}
+a[title ~= "are"]{
+    background-color: rgb(0, 255, 221);
+}
+a[title |= "are"]{
+    background-color: pink;
+}
+a[title ^= "a"]{
+    background-color: rgb(25, 0, 255);
+}
+a[title $= "s"]{
+    background-color: red;
+}
+a[title *= "l"]{
+    background-color: rgb(128, 0, 255);
+}
+a[target]{
+    background-color: aqua;
+}

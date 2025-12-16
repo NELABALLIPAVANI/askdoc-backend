@@ -1,0 +1,14 @@
+h1{
+    background-color: blueviolet;
+}
+
+p{
+    /* display: none; */
+    visibility: hidden; /* it will give empty space in place of paragraph */
+}
+
+h1:hover + p {
+    background-color: aqua;
+    /* display: block; */
+    visibility: visible;
+}

@@ -1,0 +1,37 @@
+.square{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 50px;
+}
+.rectangle{
+    height: 200px;
+    width: 340px;
+    background-color: blueviolet;
+    margin: 50px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 100px;
+    margin: 50px;
+    border: solid 3px green;
+}
+.elipse{
+    height: 150px;
+    width: 280PX;
+    background-color: brown;
+    border-radius:600px;
+}
+#triangle{
+    height: 0px;
+    width: 100px;
+    background-color: pink;
+
+
+    border-top: 100px white solid;
+    border-bottom: 100px white solid;
+    border-right: 100px  white solid;
+    border-left: 100px  red solid;
+}

@@ -1,0 +1,106 @@
+
+
+div{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    border: solid 2px;
+    background-color: aqua;
+}
+
+
+.h1{
+    position: relative;
+    top: -45px;
+    margin-left: 175px;
+    margin-top: -23px;
+    /* margin-right: 20px; */
+}
+.h2{
+    position: relative;
+    top: -63px;
+    margin-left: 210px;
+    /* margin-right: 184px; */
+}
+.h3{
+    position: relative;
+    top: -68px;
+    margin-left: 225px;
+}
+.h4{
+    position: relative;
+    top: -75px;
+    margin-left: 210px;
+}
+.h5{
+    position: relative;
+    top: -90px;
+    margin-left: 170px;
+}
+.h6{
+    position: relative;
+    top: -138px;
+    margin-left: 115px;
+}
+.h7{
+    position: relative;
+    top: -207px;
+    margin-left: 60px;
+}
+.h8{
+    position: relative;
+    top: -310px;
+    margin-left: 22px;
+}
+.h9{
+    position: relative;
+    top: -420px;
+    margin-left: 10px;
+}
+.h10{
+    position: relative;
+    top: -532px;
+    margin-left: 20px;
+}
+.h11{
+    position: relative;
+    top: -630px;
+    margin-left: 53px;
+}
+.h12{
+    position: relative;
+    top: -20px;
+    margin-left: 110px;
+}
+
+.point{
+    position: static;
+    top: 100px;
+}
+
+.min{
+    background-color: red;
+    height: 70px;
+    width: 2px;
+    position: absolute;
+    top: 130px;
+    margin-left: 120px;
+}
+.hrs{
+    background-color: lightcoral;
+    height: 65px;
+    width: 2px;
+    position: absolute;
+    top: 70px;
+    margin-left: 135px;
+    rotate: 30deg;
+}
+.sec{
+    background-color: blue;
+    height: 100px;
+    width: 1px;
+    position: absolute;
+    top: 80px;
+    margin-left: 172px;
+    rotate: 90deg;
+}

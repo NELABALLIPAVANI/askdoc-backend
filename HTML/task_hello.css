@@ -1,0 +1,51 @@
+#container{
+    height: 500px;
+    width: 700px;
+    border: 1px solid none;
+    box-shadow: 0 0 5px 5px gray;
+    display: flex;
+    margin: 100px auto;
+    border-radius: 5px;
+    /* justify-content: center; */
+}
+
+.hello_page {
+    height: 450px;
+    width: 45%;
+    padding: 50px;
+}
+
+.welcome_page{
+    /* display: flex; */
+    color: white;
+    padding: 10px;
+    padding-top: 100px;
+    /* height: 480px; */
+    /* width: 50%; */
+    background-color: rgb(207, 11, 207);
+}
+
+.input1{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px pink;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    width: 300px;
+    
+
+}
+
+.check{
+    margin-left: 16px;
+}
+.btn{
+    width: 170px;
+    text-align: center;
+    margin-top: 30px;    
+    margin-left: 50px;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 19px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" autocomplete="off" novalidate method="post">
+        <label>Name:</label>
+        <input type="text" name="fname" required  size="30" 
+        minlength="3" maxlength="10"pattern="[A-Z a-z]{3,9}"> <br><br>
+
+        <label>Age:</label>
+        <input type="number" min="18" max="33" step="2"><br><br>
+
+        <label>Aadharnumber:</label>
+        <input type="tel" pattern="[0-9 ]{14}"><br><br>
+
+        <label>phno:</label>
+        <input type="tel" pattern="[0-9]{10}"><br><br>
+
+        <label>file</label>
+        <input type="file" accept=".jpg,.pdf">
+        <input type="file" accept="image/,audio/">
+        <input type="file" multiple>
+
+        <label>date</label>
+        <input type="date" min="2025-01-01" max="2025-10-10"><br><br>
+
+        <label>name:</label>
+<input type="text"autofocus>
+
+<select name="state">
+    <option disabled selected>Select an option</option>
+    <option value="ap">Andhrapradesh</option>
+    <option value="ta">Telangana</option>
+    <option value="tn">Tamilnadu</option>
+    <option value="as">Assam</option>
+    <option value="od">odisha</option>
+    <option value="ka">karantaka</option>
+    <option value="ke">kerala</option>
+</select><br><br>
+<select name="state">
+  
+    <option value="ap">Andhrapradesh</option>
+    <option value="ta">Telangana</option>
+    <option value="tn">Tamilnadu</option>
+    <option value="as">Assam</option>
+    <option value="od">odisha</option>
+    <option value="ka">karantaka</option>
+    <option value="ke" selected>kerala</option>
+</select><br><br>
+
+<label>Gender</label>
+        <label>Male</label>
+        <input type="radio" name="Gender" value="Male" checked>
+        <label>Female</label>
+        <input type="radio" name="Gender" value="Female">
+        <label>others</label>
+        <input type="radio" name="Gender" value="others" disabled><br><br>
+<!-- checked and disabled are used for radio and checkbox  -->
+        <label>Programming languages</label>
+        <label>java</label>
+<input type="checkbox" name="Pro" value="java" checked>
+        <label>Python</label>
+        <input type="checkbox" name="Pro" value="python">
+        <label>c</label>
+        <input type="checkbox" name="Pro" value="c">
+        <label>javascript</label>
+        <input type="checkbox" name="Pro" value="javascript">
+
+        <textarea name="feedback"  readonly>good</textarea>
+        <!-- readonly is used to read and submit user cannot change disabled cannot get submit -->
+
+        <label>password:</label>
+        <input type="password" pattern="[A-Z]{1}[a-z]{3,}[0-9{2,4}[\W+]{1}]">
+<input type="password" pattern="abc@123"><br><br>
+    <input type="submit">
+ </form>
+</body>
+</html>

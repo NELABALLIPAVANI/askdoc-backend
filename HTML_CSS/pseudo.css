@@ -1,0 +1,17 @@
+
+a:link{
+    color: greenyellow;
+
+}
+a:visited{
+color: hotpink;
+}
+a:active{
+color: blueviolet;
+}
+h1:hover{
+color: gold;
+}
+input:focus{
+   color: blue;
+}

@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+p{
+    font-size: 30px;
+}
+p{
+    font-weight: 500;
+}
+p{
+    font-style: oblique;
+}
+.para1{
+     font-family: "Monsieur La Doulaise", cursive;;
+}
+@font-face {
+    font-family: sup;
+    src: url(./Molle-Italic.ttf);
+}
+.para2{
+    font-family: sup;
+}

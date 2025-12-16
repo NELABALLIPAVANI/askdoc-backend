@@ -1,0 +1,46 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(orange,white,green);
+    background-image: linear-gradient(to top,orange,white,green);
+    background-image: linear-gradient(to bottom,orange,white,green);
+    background-image: linear-gradient(to right,orange,white,green);
+    background-image: linear-gradient(to left,orange,white,green);
+  
+  
+    background-image: linear-gradient(to top right,orange,white,green);
+    background-image: linear-gradient(to top left,orange,white,green);
+    background-image: linear-gradient(to bottom left,orange,white,green);
+    background-image: linear-gradient(to bottom right,orange,white,green);
+
+
+    background-image: linear-gradient(0deg,orange,white,green);
+    background-image: linear-gradient(90deg,orange,white,green);
+    background-image: linear-gradient(180deg,orange,white,green);
+    background-image: linear-gradient(270deg,orange,white,green);
+    background-image: linear-gradient(40deg,orange,white,green);
+
+
+    background-image: linear-gradient(orange 0% 3%,white 3% 6%,green 6% 9% );
+    background-image: repeating-linear-gradient(orange 0% 3%,white 3% 6%,green 6% 9% );
+    background-image: radial-gradient(orange 0% 3%,white 3% 6%,green 6% 9% );
+   
+   
+    background-image: repeating-radial-gradient(orange ,white,green );
+    background-image: repeating-radial-gradient(circle,orange ,white,green );
+    
+    /* from means where should start,,at means horizontal and vertical */
+    background-image: conic-gradient(circle,orange ,white,green );
+    background-image: conic-gradient(black,white,yellow );
+    background-image: conic-gradient(from 120deg ,black,white,yellow );
+    background-image: conic-gradient(at 40% 60%,black,white,yellow );
+    background-image: conic-gradient(orange 0deg 120deg,blue 130deg 170deg,pink 190deg 270deg);
+    background-image: repeating-conic-gradient(blue,red,violet,hotpink);
+                
+
+
+
+
+
+}
+

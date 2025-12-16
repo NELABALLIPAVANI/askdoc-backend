@@ -1,0 +1,17 @@
+div{
+    height: 300px;
+    width: 300px;
+    /* background-color: aqua; */
+    border: 2px solid;
+    margin: 80px auto;
+  
+    outline: 15px solid blue;  
+    outline-offset: 15px;
+    overflow: hidden;
+}
+
+img:hover{
+    /* transition-timing-function: linear; */
+    transition-duration: 5s;
+    transform: scale(1.5);
+}

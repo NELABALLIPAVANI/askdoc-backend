@@ -1,0 +1,19 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: magenta;
+    box-shadow: 10px 10px;
+    box-shadow: -10px 10px #663399;
+    box-shadow: -10px 10px 10px 15px green;
+    box-shadow: 0px 0px 10px 15px green inset; /*gives shade inside border */    
+    box-shadow: 0px 0px 10px 15px green ; /*gives shade outside border */    
+   /* box-shadow: 10px 11px blue, 15px 15px red, 20px 20px green; */
+}
+
+section{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    box-shadow: 0px -10px blue, 10px 0px green, -10px 0px green, 0px 10px blue;
+    margin: auto;
+}

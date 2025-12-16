@@ -1,0 +1,35 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.div1{
+    background-color: rgb(0, 255, 229,0.4);
+    position: absolute;
+    top: 80px;
+    right: 510px;
+}
+.div2{
+    background-color: rgba(0, 255, 4, 0.7);
+    position: absolute;
+    left: 390px;
+    top: 200px;
+}
+.div3{
+    background-color:rgba(255, 55, 0, 0.4);
+    position: absolute;
+    right: 400px;
+    top: 200px;
+}
+.div4{
+    background-color: rgba(234, 0, 255, 0.4);
+    position: absolute;
+    bottom: 80px;
+    left: 510px;
+
+}
+.div3:hover{
+    background-color:brown;
+}

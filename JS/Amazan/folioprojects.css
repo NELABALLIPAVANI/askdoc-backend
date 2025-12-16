@@ -1,0 +1,262 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    /* scroll-behavior: smooth; */
+  }
+  body {
+    background: rgb(250, 250, 250);
+    color: #333;
+  
+  }
+  
+  /* Navbar */
+  #nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 80px;
+    background-color: rgb(20, 20, 93);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    transition: box-shadow 0.3s ease;
+    color: white !important;
+  }
+
+  #nav-bar h1{
+    color: white;
+    font-size: 37px;
+  }
+  #nav-bar.scrolled {
+    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  }
+  .name {
+    color: rgb(14, 118, 113);
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .breif a {
+    padding: 35px;
+    /* color: black; */
+    font-size: 25px;
+    transition: all 0.3s ease;
+    color: white;
+  }
+  .breif a:hover {
+    color: white;
+    transform: scale(1.05);
+  }
+  .cv {
+    height: 40px;
+    width: 135px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .cv a {
+    color: black;
+    font-weight: 600;
+  }
+  .cv:hover {
+    background-color: rgb(28, 170, 152);
+    transform: scale(1.05);
+  }
+  .cv:hover a {
+    color: white;
+  }
+  
+  /* Welcome Heading */
+  .welcome-section {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: rgb(114, 72, 120);
+  }
+  
+  /* Project Section */
+  #project-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    justify-content: center;
+  }
+  
+  /* Project Card */
+  .project {
+    /* flex: 1 1 calc(50% - 40px); */
+    max-width: calc(50% - 40px);
+    background-color: #fff;
+    border-left: 10px solid rgb(28, 170, 152);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  .project h2 {
+    text-align: center;
+    color: rgb(14, 118, 113);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .project p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 10px;
+    color: #444;
+  }
+  
+  /* Button (Overview) */
+  .btn {
+    display: inline-block;
+    margin: 20px auto 0;
+    padding: 10px 24px;
+    background-color: rgb(125, 18, 247);
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .btn:hover {
+    background-color: rgb(14, 118, 113);
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 1024px) {
+    .project {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+    .breif a {
+      padding: 20px;
+    }
+    .welcome-section {
+      font-size: 40px;
+    }
+  }
+  footer {
+    background-color: rgb(249, 246, 246);
+    color: rgb(15, 14, 14);
+    padding: 4em 2em;
+    text-align: center;
+  }
+  
+  /* Top Footer */
+  .top-footer {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+  }
+  
+  .top-footer p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* Middle Footer */
+  .middle-footer {
+    margin-bottom: 2em;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+  }
+  
+  .footer_menu_list a {
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+  }
+  
+  .footer_menu_list a:hover {
+    color: #3498db; /* Hover color */
+  }
+  
+  /* Footer Social Icons */
+  .footer-social-icons {
+    margin-bottom: 2em;
+  }
+  
+  .icon {
+    display: inline-block;
+    
+    margin: 1em 1em;
+    font-size: 2em;
+    transition: color 0.3s ease;
+  }
+  
+  .icon i {
+    color: rgb(18, 17, 17);
+  }
+  
+  .icon:hover i {
+    color: #3498db; 
+  }
+  
+  /* Bottom Footer */
+  .bottom-footer {
+    font-size: 1em;
+    color: rgba(8, 8, 8, 0.7);
+  }
+  
+  .bottom-footer a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .bottom-footer a:hover {
+    text-decoration: underline;
+  }
+  .cv, .cv1 {
+    color: initial; 
+    text-decoration: none; 
+  }
+  
+  .cv:active, .cv1:active {
+    color: black;
+  }
+  @media screen and (max-width: 600px) {
+    #nav-bar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      gap: 10px;
+    }
+    .breif {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .breif a {
+      padding: 10px;
+    }
+    .cv {
+      margin-top: 10px;
+    }
+    .welcome-section {
+      font-size: 32px;
+      margin-top: 60px;
+    }
+  }

@@ -1,0 +1,133 @@
+/* body{
+    margin: 100px auto;
+    height: 600px;
+    width: 600px;
+    
+} */
+
+
+.outerdiv{
+    height: 400px;
+    width: 400px;
+    margin: 100px auto;
+    border-radius: 7px;
+    box-shadow: 4px;
+    background-color: chocolate;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.innerdiv{
+    height: inherit;
+    width: inherit;
+    
+    text-align: center;
+    margin-bottom: 500px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px gray;
+    color: aliceblue;
+    display: flex;
+    justify-content: ;
+}
+
+img{
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* margin-left: 100px; */
+    border-radius: 100%;
+    border: 2px solid black;
+
+}
+
+.btn1{
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 551;
+    font-size: 20px;
+}
+
+.btn1:hover{
+    background-color: pink;
+    border: solid black;
+}
+
+.btn2:hover{
+    background-color: pink;
+    border: solid black;
+}
+.btn2{
+    font-weight: 551;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+
+}
+.split1{
+    width: 60%;
+    color: chocolate;
+    row-gap: 10px;
+}
+
+.split2{
+    /* height: 100px; */
+    width: 40%;
+    /* /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    
+
+    /* align-items : center; */
+}
+.split2 div{
+    background-color: rgb(215, 153, 109);
+    height: 33%;
+}
+
+.split2:hover{
+    background-color: aqua;
+}
+.count1{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(215, 153, 109);
+    text-align: center;
+
+}
+.count2{
+    height: 100px;
+    width: 100px;
+        background-color: rgb(215, 153, 109);
+    text-align: center;
+
+
+}
+
+.count3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(215, 153, 109);
+
+
+}
+
+.div1:hover{
+    background-color: blueviolet;
+}
+
+.div2:hover{
+    background-color: red;
+}
+
+.div3:hover{
+    background-color: blue;
+}

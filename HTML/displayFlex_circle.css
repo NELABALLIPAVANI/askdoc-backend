@@ -1,0 +1,48 @@
+section{
+    display: flex;
+    justify-content: center;
+
+}
+
+.div1{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div3{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div4{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div5{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: red;
+}

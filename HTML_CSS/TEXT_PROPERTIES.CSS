@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+/* <!--text align--> */
+p{
+    color: red;
+    text-align-last: right;
+    text-align: center; <!--left,right,center,justify,start,end-->
+}
+/* <!--text-align-last--> */
+.para{
+    text-align: left;
+    text-align-last: center;
+    color: aqua;
+}
+/* <!--text-decoration--> */
+.paragraph{
+    color: blueviolet;
+    text-decoration-style: wavy;  
+    text-decoration-line: underline; 
+    text-decoration-color:red;
+    text-decoration-thickness: 3px;
+    text-decoration: 2px dashed overline;
+}
+.anchor{
+    text-decoration-line: none;
+}
+/* <!--text-transform--> */
+.transform{
+    text-transform: capitalize;
+    text-align: justify4;
+}

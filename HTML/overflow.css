@@ -1,0 +1,8 @@
+p
+{
+    height: 400px;
+    width: 700px;
+    border: 2px solid;
+    overflow: scroll; /* visible, hidden-hide content out of the container, auto- give scroll bar if there is more content to scroll ,scroll- gives bar eventhough not necessary*/
+    white-space: pre;
+}

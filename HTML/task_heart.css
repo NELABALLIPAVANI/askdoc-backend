@@ -1,0 +1,71 @@
+/* .div1{
+    height: 150px;
+    width: 150px;
+    margin: 100px auto;
+    border-radius: 200px 30% 10px;
+    background-color: red;
+    transform: rotate(50deg);
+
+    justify-content: center;
+    align-items: center;
+}
+.div2{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    transform: rotate(50deg);
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.div1{
+    height: 300px;
+    width:  300px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin: 150px auto;
+    z-index: 4;
+    position: absolute;
+    margin-left: 200px;
+}
+.div2{
+    height: 300px;
+    width:  300px;
+    background-color: red;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 10px;
+    left: 339px;
+    border-radius: 0% 50% 50% 0%;
+}
+
+.div3{
+    height: 300px;
+    width:  300px;
+    background-color: red;
+    transform: rotate(-135deg);
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    border-radius: 0% 50% 50% 0%;
+}
+section{
+     animation-name: beat;
+     animation-duration: 1s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+}
+
+@keyframes beat {
+    to{
+        transform: scale(0.9);
+    }
+    from{
+        transform: scale(1);
+    }
+}

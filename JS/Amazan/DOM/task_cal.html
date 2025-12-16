@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+            border: solid 1px;
+            margin: auto 100px;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <label for="">Input1 : </label>
+    <input type="text" id="input1"><br><br>
+
+    <label for="">Input2 : </label>
+    <input type="text" id="input2"><br><br>
+
+    <label for="">Operation :  </label>
+    <select name="opeartor" id="select1">
+        <option value="">select Options</option>
+        <option value="addition">add</option>
+        <option value="subtraction">sub</option>
+        <option value="multiplication">mul</option>
+        <option value="division">div</option>
+    </select><br><br>
+    <button onclick="calculator()">Calculate</button>
+    <h1 id="result">Result</h1>
+    </div>
+    <script src="./task_cal.js"></script>
+</body>
+</html>

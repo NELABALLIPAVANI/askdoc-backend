@@ -1,0 +1,15 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    /* display: inline; */
+    display: inline-block;
+}
+span{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    /* display: block; */
+        display: inline-block;
+
+}

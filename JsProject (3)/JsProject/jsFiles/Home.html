@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../cssFiles/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- <nav>
+
+        <input type="text" placeholder="search product......." id="searchProduct">
+       <a href="./AddToCart.html"><i class="fa-solid fa-cart-shopping"></i></a> 
+
+    </nav> -->
+
+ <nav class="ecom-nav">
+
+    <div class="nav-left">
+        <div class="brand">ShopEase</div>
+    </div>
+
+    <div class="nav-center">
+        <div class="search-area">
+            <input type="text" placeholder="Search for products..." id="searchProduct">
+            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <div class="nav-right">
+        <a href="#" class="nav-link">
+            <i class="fa-regular fa-user"></i>
+            <span>Account</span>
+        </a>
+
+        <a href="./AddToCart.html" class="nav-link cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart</span>
+            <span class="cart-badge" id="cartCount">0</span>
+        </a>
+    </div>
+
+</nav>
+
+
+    <div id="con"></div>
+    <script src="./home.js"></script>
+    <script src="./cart-badge.js"></script>
+</body>
+</html>

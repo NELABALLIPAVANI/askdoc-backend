@@ -1,0 +1,39 @@
+p{
+    height: 500px;
+    width: 500px;
+    color: green;
+    
+    padding: 10px; /*gives all sides*/
+    padding-right: 30px; /*right*/
+    padding-left: 30px;  /*left*/
+    padding-top: 30px;  /*top*/
+    padding-bottom: 30px;  /*bottom*/
+    padding: 30px;    /*top*/
+    padding: 30px 30px;    /*top left and right*/
+    padding: 30px 30px 30px;   /*top left and right, bottom */
+    padding: 30px 30px 30px 30px;  /*top right bottom left */   
+ 
+    /* border-style: solid;
+    border-color: pink;
+    border-radius: 30px ;
+    border-width: 20px; */
+    /* border: green 20px groove; */
+    border-top: blue 20px dashed;
+    border-bottom: hotpink 20px double;
+    border-left: yellow 20px dotted;
+    border-right: violet 20px groove;
+    border: black 20px inset;
+
+    border-style: solid;
+    border-style: solid dotted;
+    border-style: solid dotted double;
+    border-style: solid dotted double dashed;
+    border-width: 5px 10px 20px;
+    border-color: red green ;
+
+    border-radius: 20px; /*top right */
+    border-radius: 20px 20px; /* top left, bottom-right */
+    border-radius: 20px 20px 20px; /* top left, top-right & bottom-left, bottom-right*/
+    border-radius: 20px 20px 20px 20px;  /*top-left ,top-right,bottom-right,bottom-left*/
+   
+}

@@ -1,0 +1,33 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    font-size: 30px;
+    margin: 100px auto;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*rotate the elemennt , accepts negative values*/
+    /* transform: rotateY(80deg);
+    transform: rotateY(50deg); */
+
+    /* increase or decrease the element , accept negative values and change the content inside element */
+    /* transform: scale(-1.6); */
+    /* transform: scaleX(-0.5); */
+
+    /* works like margin, accepts negative values as well */
+    /* transform: translate(-200px);
+    transform: translateY(200px); */
+
+    /* rotate slitely */
+    /* transform: skewY(50deg);
+    transform: skewY(70deg); */
+}
+
+div:hover{
+    transform: rotate(10deg) scale(1.4);
+    /* transform: scale(1.4); */
+    background-color: aqua;
+}

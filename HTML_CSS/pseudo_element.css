@@ -1,0 +1,26 @@
+p::first-letter{
+    color: blue;
+    font-size: 20px;
+}
+p::first-line{
+    color: red;
+    font-size: 20px;
+}
+p::before{
+    content: "Welcome to the Web Page";
+}
+p::after{
+    content: "Thank you For ur time..!";
+    color: blue;
+    /* content: url(); */
+}
+p::selection{
+    color: rgb(200, 255, 0);
+    font-size: 50px;
+    color: black;
+}
+::marker{
+    color: red;
+    font-size: 20px;
+}
+
