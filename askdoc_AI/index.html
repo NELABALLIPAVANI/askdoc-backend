@@ -1,39 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
   <title>AskDoc AI</title>
+
   <style>
-    body { font-family: Arial; background: #f4f4f4; padding: 40px; }
-    .box { max-width: 500px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; }
-    textarea { width: 100%; height: 80px; }
-    button { width: 100%; padding: 10px; margin-top: 10px; }
-    #answer { margin-top: 15px; white-space: pre-wrap; }
+    * {
+      box-sizing: border-box;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      padding: 20px;
+    }
+
+    .box {
+      width: 100%;
+      max-width: 520px;
+      background: #ffffff;
+      border-radius: 14px;
+      padding: 25px 22px;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 18px;
+      color: #4a4a4a;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      resize: none;
+      font-size: 15px;
+      outline: none;
+    }
+
+    textarea:focus {
+      border-color: #667eea;
+      box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+    }
+
+    button {
+      width: 100%;
+      margin-top: 15px;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    #answer {
+      margin-top: 18px;
+      padding: 12px;
+      background: #f7f7fb;
+      border-radius: 8px;
+      font-size: 15px;
+      color: #333;
+      white-space: pre-wrap;
+      min-height: 60px;
+    }
+
+    footer {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+    }
   </style>
 </head>
+
 <body>
 
-<div class="box">
-  <h2>AskDoc AI (Live)</h2>
-  <textarea id="q" placeholder="Ask anything..."></textarea>
-  <button onclick="ask()">Ask AI</button>
-  <div id="answer"></div>
-</div>
+  <div class="box">
+    <h2>🤖 AskDoc AI</h2>
 
-<script>
-async function ask() {
-  document.getElementById("answer").innerText = "Thinking...";
-  const q = document.getElementById("q").value;
+    <textarea id="q" placeholder="Ask anything..."></textarea>
 
-  const res = await fetch("https://YOUR-BACKEND-URL/ask", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ question: q })
-  });
+    <button onclick="ask()">Ask AI</button>
 
-  const data = await res.json();
-  document.getElementById("answer").innerText = data.answer;
-}
-</script>
+    <div id="answer">Your answer will appear here...</div>
+
+    <footer>Powered by Gemini AI • Live Demo</footer>
+  </div>
+
+  <script>
+    async function ask() {
+      const answerDiv = document.getElementById("answer");
+      const q = document.getElementById("q").value;
+
+      if (!q.trim()) {
+        answerDiv.innerText = "Please enter a question 🙂";
+        return;
+      }
+
+      answerDiv.innerText = "Thinking... 🤔";
+
+      try {
+        const res = await fetch("https://YOUR-BACKEND-URL/ask", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question: q })
+        });
+
+        const data = await res.json();
+        answerDiv.innerText = data.answer || "No response received.";
+      } catch (err) {
+        answerDiv.innerText = "Something went wrong. Please try again.";
+      }
+    }
+  </script>
 
 </body>
 </html>
