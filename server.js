@@ -9,7 +9,7 @@ app.use(express.json());
 app.post("/ask", async (req, res) => {
   try {
     const response = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" +
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=" +
         process.env.GEMINI_API_KEY,
       {
         method: "POST",
@@ -33,3 +33,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Server running on port " + PORT);
 });
+
