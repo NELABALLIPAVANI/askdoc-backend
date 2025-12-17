@@ -117,7 +117,7 @@
       answerDiv.innerText = "Thinking... 🤔";
 
       try {
-        const res = await fetch("https://YOUR-BACKEND-URL/ask", {
+        const res = await fetch("https://askdoc-backend-1.onrender.com/ask", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ question: q })
